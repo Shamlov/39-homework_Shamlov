@@ -83,3 +83,17 @@ switch1.addEventListener('click', changeСlass)
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+let btnProgress = document.getElementById('btnProgress')
+let greenBar = document.getElementById('greenBar')
+function addProgressBar () {
+    let pogress = parseInt(greenBar.textContent)
+
+    if(pogress <= 95) {
+    pogress += 5
+    greenBar.textContent = pogress
+    greenBar.style.width = pogress + '%'
+    console.log(pogress)
+    }
+
+}
+btnProgress.addEventListener('click', addProgressBar)
