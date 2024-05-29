@@ -70,10 +70,62 @@ html, body {
 }
 
 /*--------------------*/
-P {
-  font-size: large;
+body {
+  width: 900px;
 }
 
-div {
-  display: inline;
+p {
+  font-size: 20px;
+}
+
+.btn {
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.random_number_generator .card_generator {
+  margin: 10px auto;
+  width: 400px;
+  height: 200px;
+}
+.random_number_generator .conclusion {
+  height: 50px;
+  text-align: center;
+}
+
+.mouse-field {
+  width: 600px;
+  height: 400px;
+  background-color: rgb(173, 228, 178);
+}
+
+.show-info {
+  font-size: 20px;
+}
+
+.hiding-text {
+  padding: 40px;
+  background-color: rgb(182, 163, 201);
+}
+
+.text-hidden {
+  visibility: hidden;
+}
+
+.block-switch-text {
+  display: flex;
+  padding: 10px;
+  background-color: rgb(173, 228, 178);
+}
+.block-switch-text .switch p {
+  padding: 5px;
+  border: 1px solid black;
+  background-color: rgb(182, 163, 201);
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.block-switch-text .text-none {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
